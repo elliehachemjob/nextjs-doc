@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-export default function Home() {
+export default function Food() {
   return (
     <div className="container">
       <Head>
-        <title>home</title>
+        <title>about</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Home
+      Food
     </div>
   );
 }
